@@ -109,7 +109,7 @@ par (las = 1, mar = c (5,5,1,1), mgp = c (2, 0.5, 0), tck = -0.01)
 plot (as.numeric (names (totalFeed)), totalFeed, type = "b", pch = 16, xlab = "age in days", ylab = "ounces of milk")
 abline (h = mean (totalFeed), lty = 2, col = 'red')
 dev.off ()
-#'My hypothesis is that beren's length will increase as he ages.'
+#'My hypothesis is that beren's mass will increase as he ages.'
 
 Bonus <- which (Data[,9] == 'nap')
 Naps <- Data [Bonus,]
@@ -126,6 +126,15 @@ stopHour
 stopMin
 Naps$NapDuration <- ((stopHour - startHour) * 60 + (stopMin - startMin))
 head (Naps)
+
+Bonus <- which (beren3$event == 'bottle')
+avgMass <- mean (beren3$value [Feeds])
+avgSleep <- mean (Naps$NapsDuration [Bonus])
+avgSleep <- tapply (Naps$NapDuration [Bonus], Naps$age [Bonus], mean)
+varSleep <- tapply (Naps$NapDuration [Bonus], Naps$age [Bonus], var)
+totalSleep <- tapply (Naps$NapDuration [Bonus], Naps$age [Bonus], sum)
+numSleep <- tapply (Naps$NapDuration [Bonus], Naps$age [Bonus], length)
+
 TotalSleep<-tapply(Naps$NapDuration, Naps$age, sum)
 TotalSleep
 par(las = 1, mar= c (5,5,1,1), mgp = c (2,0.5,0), tck = -0.01)
@@ -134,6 +143,8 @@ cor.test (Naps$start_hour, Naps$NapDuration)
 #'The cor test gave a cor value of -0.1079752, t = -1.3781, df = 161, p-value = 0.1701. 95 percent confidence interval returned - -0.25742303 and 0.04651734. The alternative hypothesus us that the correlation is not equal to 0'
 NapsCor <- cor.test (Naps$start_hour, Naps$NapDuration)
 pdf ('r02b-totaltimesleptagaisntage.pdf', height = 4, width = 4)
+abline (h = mean (TotalSleep), lty = 2, col = 'red')
+dev.off ()
 #'Everything below this line was some of the code I attempted in order to get the bonus. I moved what actually worked under the lines of code from the actualy assignment so that if you were to just run the code from start to this line, it should work correctly. Also, I left the other attempts so that you can see them and so that I can look back on them and compare them to the correct lines at a later date if needed'
 
 
@@ -193,6 +204,8 @@ plot(as.numeric (names (TotalSleep)), TotalSleep, type = "b", pch = 16, xlab = "
 cor.test (Naps$start_hour, Naps$NapDuration)
 #'The cor test gave a cor value of -0.1079752, t = -1.3781, df = 161, p-value = 0.1701. 95 percent confidence interval returned - -0.25742303 and 0.04651734. The alternative hypothesus us that the correlation is not equal to 0'
 pdf ('r02b-totaltimesleptagaisntage.pdf', height = 4, width = 4)
+abline (h = mean (totalSleep), lty = 2, col = 'red')
+dev.off ()
 
 TotalSleep <- sum (Naps$NapDuration)
 TotalSleep
@@ -208,3 +221,43 @@ tail (Naps)
 
 
 #'My hypothesis is that beren's length will increase as he ages.'
+
+
+head (beren)
+colnames (Naps)
+MassHypo <- which (Data[,9] == 'trait_mass')
+Mass <- Data [MassHypo,]
+head (Mass)
+tail (Mass)
+MassHypo <- which (Data [,'event'] == 'trait_mass')
+MassHypo <- which (Data$event == 'trait_mass')
+TotalMass <- tapply (Mass$trait_mass, Mass$age, sum)
+TotalMass
+par(las = 1, mar= c (5,5,1,1), mgp = c (2,0.5,0), tck = -0.01)
+plot(as.numeric (names (TotalMass)), TotalMass, type = "b", pch = 16, xlab = "Age in Days", ylab = "Mass in Kilograms")
+cor.test (Mass$age, Mass$trait_mass)
+
+Mass <- which (Data[,9] == 'trait_mass')
+berenMass <- Data[Mass ,]
+head (berenMass)
+Mass <- which (Data[,'event'] == 'trait_mass')
+Mass <- which (Data$event == 'trait_mass')
+Mass <- which (beren3$event == 'trait_mass')
+avgMass <- mean (berenMass$value [Mass])
+avgMass <- tapply (berenMass$value [Mass], berenMass$age [Mass], mean)
+varMass <- tapply (berenMass$value [Mass], berenMass$age [Mass], var)
+totalMass <- tapply (berenMass$value [Mass], berenMass$age [Mass], sum)
+numMass <- tapply (berenMass$value [Mass], berenMass$age [Mass], length)
+cor (berenMass$value [Mass], berenMass$age [Mass])
+cor.test (berenMass$value [Mass], berenMass$age [Mass], method ="spearm", alternative = "greater")
+massCor <- cor.test (berenMass$value [Mass], berenMass$age [Mass], method = "spearm", alternative = "greater")
+summary (massCor)
+#' I used the spearman correlation test. I did this because I read that it can be used with non-linear relationships. Also, I made the alternative hypothesis as greater because my hypothesis is that beren's mass will become greater as time goes on.So, a positive relationship. I read that closer to a positive one means it is more of a positive and closer to - 1 means it closer to a negative relationship. So, since I want to test for a positive one - I set the alternative hypothesis to greater in the code."
+#' 'The correlation test gave a rho value of 0.9761905, which is very close to 1. So, this test supports the hypothesis that beren's mass increases with age (or more specifically put - beren's mass and age are positively correlated).'
+par (las = 1, mar = c (5,5,1,1), mgp = c (2, 0.5, 0), tck = -0.01)
+plot (as.numeric (names (totalMass)), totalMass, type = "b", pch = 16, xlab = "Age in Days", ylab = "Mass in Kilograms")
+abline (h = mean (totalMass), lty = 2, col = 'red')
+pdf ('r02b-totalMassByDay.pdf', height = 4, width = 4)
+dev.off ()
+?cor.test
+#'The plot demonstrates that as Beren ages, his mass also increases on average. Coupling this with the spearman correlation test, it is heavilysupported that beren's mass increases with age (or more specifically, beren's mass and age are positively correlated).' )
