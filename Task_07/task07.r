@@ -61,3 +61,11 @@ plot (AnolisTree2, edge.width=2, show.tip.label = FALSE, type = "fan", edge.colo
 
 ltt (AnolisTree)
 abline (0, 1, lwd = 2, col = 'red', lty = 2)
+
+#'Question 9, The line constantly goes up. It does thing because more and more species are branching from each new branch. One species can turn into two, but two can turn into 4, etc.. The slope of the line itself is not, no. The slope tells you how fast new species are being created.'
+#'Question 10, code below'
+?fit.bd
+??fit.bd
+library (phytools)
+fit.bd (AnolisTree, b+NULL, d=NULL, rho=0.2)
+#'Dr. Mitchell, I had turned this in before 11am today, but I was not aware that there were questions 9 and 10. So, when I learned of them I did them and now I am turning it in again, at 7:20pm.'
