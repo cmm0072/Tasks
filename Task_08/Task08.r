@@ -25,13 +25,18 @@ fossilData <- data.frame (svl = log (c ( 25.4, 23.2, 17.7, 19.7, 24, 31)), tip1 
 #'Code for for () loop below.'
 fossilNodes <- c ()
 nodeN <- c()
-{
+'{
   for (i in 1:nrow (fossilData))
     i <- 1 
   if (i == 1) {
       print (Ancestors)}
-}
+} this was the for loop I had.'
 
+for (i in 1:nrow (fossilData)) {
+  Node <- fastAnc (tree, svl, vars = TRUE, CI = TRUE)
+  fossilNodes [i] <- fossilData [i, "svl"]
+  nodeN[i] <- Node
+}
 Ancestors_withFossils <- fastAnc (tree, svl, anc.states = fossilNodes, CI=TRUE, var=TRUE)
 Ancestors_withFossils
 
@@ -59,3 +64,4 @@ whiteModel <- fitContinuous(tree,svl, SE = 0,
                             model = "white")
 #'The EB model is the best because it works with the lowest AIC, which is -7.235124.'
 #'The EB model is different from the fastAnc model because it is set by the a rate parameter and fastAnc reboots the tree at each internal node and computes the contrast state at each respective node each respective time. I believe that the fastAnc is more like the BM than the EB model.'
+#'After checking the reddit, I seen your comment on the for loop, so I changed it to what you had put, and repushed it at 5:21 pm, but I had pushed the orignial one with the old for loop before 11 am.'
