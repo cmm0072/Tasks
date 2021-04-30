@@ -1,0 +1,102 @@
+﻿SampleID_1,SampleID_2,Subspecies,Sex,Sample,Trapping site,Latitude,Longitude,Time spent sniffing domesticus stimulus (seconds),Time spent sniffing musculus stimulus (seconds),Difference
+mmusallo1400,,M. m. musculus,Male,Close allopatry,H1,56.687977,9.860539,6.3,13.1,0.350515464
+mmusallo1407,,M. m. musculus,Male,Close allopatry,H1,56.687977,9.860539,5.7,13,0.390374332
+mmusallo1408,,M. m. musculus,Male,Close allopatry,H1,56.687977,9.860539,18,11.8,-0.208053691
+fmusallo447,I770,M. m. musculus,Female,Close allopatry,H10,56.671604,9.807290,5.6,7.6,0.151515152
+fmusallo455,I774,M. m. musculus,Female,Close allopatry,H10,56.671604,9.807290,0.9,3,0.538461538
+fmusallo458,I776,M. m. musculus,Female,Close allopatry,H10,56.671604,9.807290,2.5,5.5,0.375
+mmusallo446,I769,M. m. musculus,Male,Close allopatry,H10,56.671604,9.807290,8.3,12.6,0.205741627
+mmusallo456,I775,M. m. musculus,Male,Close allopatry,H10,56.671604,9.807290,17.5,9.5,-0.296296296
+fmusallo459,I777,M. m. musculus,Female,Close allopatry,H12,56.657694,9.899869,4.5,2.7,-0.25
+fmusallo435,,M. m. musculus,Female,Close allopatry,H2,56.668722,9.889028,5.7,2.7,-0.357142857
+fmusallo440,I764,M. m. musculus,Female,Close allopatry,H2,56.668722,9.889028,3.3,4.8,0.185185185
+fmusallo433,I762,M. m. musculus,Female,Close allopatry,H3,56.697820,9.862048,5.7,3.2,-0.280898876
+mmusallo442,I766,M. m. musculus,Male,Close allopatry,H3,56.697820,9.862048,5.6,14.6,0.445544554
+mmusallo443,I767,M. m. musculus,Male,Close allopatry,H3,56.697820,9.862048,3.9,12.7,0.530120482
+mmusallo449,I771,M. m. musculus,Male,Close allopatry,H3,56.697820,9.862048,6.7,6.9,0.014705882
+mmusallo450,I772,M. m. musculus,Male,Close allopatry,H8,56.710553,9.903922,1.8,2.9,0.234042553
+fmusallo444,I768,M. m. musculus,Female,Close allopatry,H9,56.699528,9.760556,4.1,5,0.098901099
+fmusallo421,I863,M. m. musculus,Female,Close allopatry,R1,56.535667,10.098353,4.5,3.7,-0.097560976
+mmusallo420,I862,M. m. musculus,Male,Close allopatry,R1,56.535667,10.098353,5.3,9.3,0.273972603
+fmusallo404,I857,M. m. musculus,Female,Close allopatry,R12,56.504734,10.129941,2.9,3,0.016949153
+fmusallo411,,M. m. musculus,Female,Close allopatry,R14,56.505806,10.171389,3.6,1.3,-0.469387755
+fmusallo412,I861,M. m. musculus,Female,Close allopatry,R14,56.505806,10.171389,5.9,3.4,-0.268817204
+fmusallo425,I866,M. m. musculus,Female,Close allopatry,R14,56.505806,10.171389,3.8,9.1,0.410852713
+mmusallo410,I859,M. m. musculus,Male,Close allopatry,R14,56.505806,10.171389,5,10.7,0.363057325
+mmusallo423,I865,M. m. musculus,Male,Close allopatry,R14,56.505806,10.171389,10.3,7.1,-0.183908046
+fmusallo1430,I852,M. m. musculus,Female,Close allopatry,R16,56.480694,10.144583,4.6,7.4,0.233333333
+fmusallo454,I870,M. m. musculus,Female,Close allopatry,R16,56.480694,10.144583,8.7,3.3,-0.45
+fmusallo465,I871,M. m. musculus,Female,Close allopatry,R17,56.504087,10.167913,6.4,3.2,-0.333333333
+mmusallo400,I853,M. m. musculus,Male,Close allopatry,R6,56.527611,10.138388,13.1,8,-0.241706161
+mmusallo401,I854,M. m. musculus,Male,Close allopatry,R6,56.527611,10.138388,7.4,12.1,0.241025641
+mmusallo406,I858,M. m. musculus,Male,Close allopatry,R6,56.527611,10.138388,6.7,10.2,0.207100592
+mmusallo426,I867,M. m. musculus,Male,Close allopatry,R6,56.527611,10.138388,4.3,5.7,0.14
+mmusallo427,I868,M. m. musculus,Male,Close allopatry,R6,56.527611,10.138388,11.7,10.1,-0.073394495
+fmusallo403,I856,M. m. musculus,Female,Close allopatry,R7,56.521833,10.149806,2.1,2.3,0.045454545
+mmusallo402,I855,M. m. musculus,Male,Close allopatry,R7,56.521833,10.149806,8.7,11.3,0.13
+mmusallo428,I869,M. m. musculus,Male,Close allopatry,R8,56.503024,10.094883,16.5,7.6,-0.369294606
+mmusbor772,I739,M. m. musculus,Male,Contact,B1,56.186339,10.031620,7.4,20.9,0.477031802
+fmusbor775,I741,M. m. musculus,Female,Contact,B10,56.164643,9.991711,3.7,3.2,-0.072463768
+mmusbor776,I742,M. m. musculus,Male,Contact,B10,56.164643,9.991711,5.2,12.3,0.405714286
+mmusbor777,I743,M. m. musculus,Male,Contact,B10,56.164643,9.991711,5.2,10.2,0.324675325
+fmusbor1754,I731,M. m. musculus,Female,Contact,B12,56.194631,9.995358,3.5,2.5,-0.166666667
+fmusbor786,I748,M. m. musculus,Female,Contact,B12,56.194631,9.995358,3.3,0.4,-0.783783784
+mmusbor783,I746,M. m. musculus,Male,Contact,B12,56.194631,9.995358,6.1,6.8,0.054263566
+mmusbor785,I747,M. m. musculus,Male,Contact,B12,56.194631,9.995358,7.6,5.4,-0.169230769
+fmusbor781,I744,M. m. musculus,Female,Contact,B17,56.166387,9.984770,3.5,3.5,0
+mmusbor782,I745,M. m. musculus,Male,Contact,B17,56.166387,9.984770,12.7,13.9,0.045112782
+fmusbor787,I749,M. m. musculus,Female,Contact,B20,56.197190,10.049100,6,4.6,-0.132075472
+mmusbor788,I750,M. m. musculus,Male,Contact,B20,56.197190,10.049100,12.5,14.3,0.067164179
+mmusbor792,,M. m. musculus,Male,Contact,B20,56.197190,10.049100,7.3,22.1,0.503401361
+fmusbor760,I736,M. m. musculus,Female,Contact,B3,56.193607,10.004268,3.7,6.3,0.26
+fmusbor761,I737,M. m. musculus,Female,Contact,B3,56.193607,10.004268,3,10.7,0.562043796
+mmusbor759,I735,M. m. musculus,Male,Contact,B3,56.193607,10.004268,6.7,13,0.319796954
+fmusbor754,I733,M. m. musculus,Female,Contact,B6,56.243634,10.037822,2.3,4.9,0.361111111
+fmusbor750,I732,M. m. musculus,Female,Contact,B7,56.281146,10.037152,1.3,4.1,0.518518519
+mmusbor771,I738,M. m. musculus,Male,Contact,B7,56.281146,10.037152,5.9,15.7,0.453703704
+fmusbor704,I781,M. m. musculus,Female,Contact,LA15,56.170526,9.875429,3.4,4.5,0.139240506
+fmusbor705,I782,M. m. musculus,Female,Contact,LA15,56.170526,9.875429,4,4.4,0.047619048
+mmusbor722,I792,M. m. musculus,Male,Contact,LA15,56.170526,9.875429,8,13.2,0.245283019
+mmusbor1712,I778,M. m. musculus,Male,Contact,LA16,56.210888,9.851984,10.6,11.8,0.053571429
+mmusbor719,I790,M. m. musculus,Male,Contact,LA16,56.210888,9.851984,8.3,9.3,0.056818182
+mmusbor720,I791,M. m. musculus,Male,Contact,LA16,56.210888,9.851984,3.9,2.5,-0.21875
+fmusbor728,I793,M. m. musculus,Female,Contact,LA17,56.150869,9.840243,3.5,3.7,0.027777778
+fmusbor768,I797,M. m. musculus,Female,Contact,LA17,56.150869,9.840243,4.2,7.4,0.275862069
+mmusbor715,I787,M. m. musculus,Male,Contact,LA17,56.150869,9.840243,6.2,15.5,0.428571429
+mmusbor766,I795,M. m. musculus,Male,Contact,LA17,56.150869,9.840243,7.2,16.7,0.39748954
+mmusbor767,I796,M. m. musculus,Male,Contact,LA17,56.150869,9.840243,14.7,15.1,0.013422819
+mmusbor769,I798,M. m. musculus,Male,Contact,LA17,56.150869,9.840243,8.3,10.6,0.121693122
+fmusbor712,,M. m. musculus,Female,Contact,LA19,56.194442,9.819382,0.9,1.8,0.333333333
+fmusbor711,I785,M. m. musculus,Female,Contact,LA3,56.160228,9.852918,5.4,4.4,-0.102040816
+fmusbor700,I779,M. m. musculus,Female,Contact,LA4,56.161348,9.818599,5.2,3.5,-0.195402299
+fmusbor709,I783,M. m. musculus,Female,Contact,LA4,56.161348,9.818599,6,5.7,-0.025641026
+fmusbor710,I784,M. m. musculus,Female,Contact,LA4,56.161348,9.818599,6,8.1,0.14893617
+fmusbor717,I788,M. m. musculus,Female,Contact,LA6,56.215413,9.795767,4.6,5.2,0.06122449
+mmusbor718,I789,M. m. musculus,Male,Contact,LA6,56.215413,9.795767,6.3,15.9,0.432432432
+fmusbor521,I828,M. m. musculus,Female,Contact,M1,56.072484,9.933942,6.3,2,-0.518072289
+mmusbor778,I829,M. m. musculus,Male,Contact,M3,56.079881,9.848191,8.4,18.6,0.377777778
+mmusbor779,I830,M. m. musculus,Male,Contact,M3,56.079881,9.848191,3.9,13.2,0.543859649
+fmusbor502,I820,M. m. musculus,Female,Contact,M4,56.072333,9.944472,1.3,2.3,0.277777778
+fmusbor507,I824,M. m. musculus,Female,Contact,M5,56.077073,9.951097,3.2,6.4,0.333333333
+mmusbor505,I823,M. m. musculus,Male,Contact,M5,56.077073,9.951097,4.1,9.7,0.405797101
+mmusbor511,I827,M. m. musculus,Male,Contact,M5,56.077073,9.951097,5.8,8.8,0.205479452
+KA10,,M. m. musculus,Female,Distant allopatry,A,48.220484,16.284560,4.85,3.26,-0.196054254
+KA14,,M. m. musculus,Female,Distant allopatry,A,48.220484,16.284560,0,0,
+KA17,,M. m. musculus,Female,Distant allopatry,A,48.220484,16.284560,4.74,2.31,-0.344680851
+KB11,,M. m. musculus,Male,Distant allopatry,B,48.220405,16.284351,3.05,18.59,0.718114603
+KB32,,M. m. musculus,Female,Distant allopatry,B,48.220405,16.284351,6.59,3.04,-0.368639668
+KC01,,M. m. musculus,Male,Distant allopatry,C,48.220255,16.284317,13.52,15.01,0.052225727
+KE03,,M. m. musculus,Female,Distant allopatry,E,48.220362,16.284858,5.28,6.32,0.089655172
+KE13,,M. m. musculus,Female,Distant allopatry,E,48.220362,16.284858,5.03,2.78,-0.28809219
+KE23,,M. m. musculus,Male,Distant allopatry,E,48.220362,16.284858,17.25,9.67,-0.281575037
+KF01,,M. m. musculus,Male,Distant allopatry,F,48.220527,16.284758,8.19,5.91,-0.161702128
+KF06,,M. m. musculus,Male,Distant allopatry,F,48.220527,16.284758,15.78,22.27,0.170565046
+KF09,,M. m. musculus,Male,Distant allopatry,F,48.220527,16.284758,21.92,31.79,0.183764662
+KF14,,M. m. musculus,Female,Distant allopatry,F,48.220527,16.284758,0,1.21,1
+KF16,,M. m. musculus,Female,Distant allopatry,F,48.220527,16.284758,4.31,3.09,-0.164864865
+KN06,,M. m. musculus,Female,Distant allopatry,N,48.220548,16.281921,8.49,1.91,-0.632692308
+KN07,,M. m. musculus,Male,Distant allopatry,N,48.220548,16.281921,15.06,16.1,0.033376123
+KN08,,M. m. musculus,Male,Distant allopatry,N,48.220548,16.281921,18.27,23.85,0.132478632
+KO10,,M. m. musculus,Male,Distant allopatry,O,48.220795,16.284206,14.55,18.36,0.115770283
+KO12,,M. m. musculus,Male,Distant allopatry,O,48.220795,16.284206,9.65,13.95,0.18220339
+KO18,,M. m. musculus,Female,Distant allopatry,O,48.220795,16.284206,7.86,6.51,-0.09394572
