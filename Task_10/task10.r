@@ -72,3 +72,26 @@ dev.off()
 
 #' I plan to finish this afer class today, but I wanted to submit what I have on time. I  am extremely confused with task but I have given it my best attempt and will do the same when as I try to finish it."
 #' I think I saw in the sylabus that if we work with someone, we should put that in the comments. I asked Raza for help and he showed me some of the code that he used. I didn't really understand it but I don't feel right about probing him with questions, I know everyone is busy. However, technically we worked together since he showed me an example of how he did the task. Just putting this here because I think the syllabus tells me to. I also did not use his numbers and went about the the 2nd Question/senerio different.'
+
+
+#'Question 3, code below'
+dir ()
+Data3 <- matrix (0.5, 0.7, 0.8, 0.35, 0.1, )
+
+Freq1trail1 <- Data3[,2]
+Freq1trail2 <- Data3[,4]
+Freq1trail3 <- Data3[,6]
+
+VarT1 <- var (Freq1trail1)
+VarT2 <- var (Freq1trail2)
+VarT3 <- var (Freq1trail3)
+VarianceT123 <- c (Freq1trail1, Freq1trail2, Freq1trail3)
+VarianceT123
+
+Trials <- c (1,2,3)
+barplot(VarianceT123, main='Variance Over Freqs',xlab='Freq',ylab='Variance of Frequencies', col='blue')
+#'Each bar represents a freq, and are grouped in 5 - as there are five freqs per trail. Freq has high variance at the start and it reduces in the second trail, but shoots back up in the 2nd trail.'
+
+#'Question 4 - Evolutionary processes such as natural selection and drift shape frequencies. Then factors affect those processes, such as Ne does with drift, which will end up shaping frequencies through manipulating the extent of effect in the evolutionary processes they influence.'
+
+#'Honestly, I know this task was not well done by me. I will be the first to admit that. I did, however, do the best I felt I could.'
